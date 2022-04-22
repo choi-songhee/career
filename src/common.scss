@@ -1,0 +1,95 @@
+// Header
+.header {
+  position: relative;
+
+  &__wrap {
+    position: relative;
+    padding-left: 18px;
+
+    &::before {
+      position: absolute;
+      content: '';
+      display: block;
+      top: -3px;
+      left: 0;
+      width: 8px;
+      height: 100%;
+      background-color: var(--text-point);
+    }
+  }
+
+  &__title {
+    margin-bottom: 5px;
+    font-size: 28px;
+    line-height: 1;
+    color: var(--text-point);
+  }
+
+  &__desc {
+    font-size: 15px;
+    color: var(--text-default);
+  }
+
+  &__link {
+    color: var(--text-point);
+
+    + .header__link {
+      margin-left: 15px;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .inner {
+    align-items: baseline;
+  }
+}
+
+// Section
+.section {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0 12.5% 5rem;
+
+  @media screen and (min-width: 801px) {
+    padding: 0 100px 5rem;
+  }
+
+  &__subject {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__desc {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--text-default);
+  }
+}
+
+.project {
+  &__list {
+    margin-top: 15px;
+  }
+}
+
+// Footer
+.footer {
+  background-color: var(--bg-color);
+  color: var(--text-point);
+  font-weight: 200;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12.5%;
+
+  @media screen and (min-width: 801px) {
+    padding: 100px;
+  }
+}
+

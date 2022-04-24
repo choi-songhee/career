@@ -13,14 +13,15 @@ const Project = () => {
       <div className="project">
         {ProjectList.map((item, i) => (
           <dl className="project__list" key={i}>
-            <dt className="project__title">{item.title}</dt>
+            <dt className="project__title"><span className="project__title-text">{item.title}</span></dt>
             <dd className="project__period">{item.period}</dd>
-            <dd className="project__position">{item.position}</dd>
-            <dd className="project__desc">{item.desc}</dd>
-            <dd className="project__tech">{item.tech}</dd>
+            <dd className="project__desc"><span className="c-point">What did I do.</span>{item.desc}</dd>
+            <dd className="project__tech"><span className="c-point">Tech Stack.</span>{item.tech}</dd>
+            <dd className="project__link">
+              <a className="project__url" href={item.url}>{item.url}</a>
+            </dd>
           </dl>
         ))}
-
       </div>
     </section>
   );

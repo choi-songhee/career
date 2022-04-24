@@ -31,6 +31,7 @@
   }
 
   &__link {
+    font-size: 18px;
     color: var(--text-point);
 
     + .header__link {
@@ -58,7 +59,7 @@
   }
 
   &__subject {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 500;
   }
 
@@ -70,8 +71,45 @@
 }
 
 .project {
+  margin-top: 50px;
+
   &__list {
-    margin-top: 15px;
+    margin-top: 30px;
+  }
+
+  &__title-text {
+    position: relative;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -3px;
+      right: -11px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--text-point);
+    }
+  }
+
+  &__period {
+    color: #949599;
+    font-size: 15px;
+  }
+
+  &__desc {
+    color: var(--text-default);
+    white-space: pre-line;
+  }
+
+  .c-point {
+    display: block;
+    color: var(--text-point);
+    font-weight: 600;
   }
 }
 

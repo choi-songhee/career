@@ -47,7 +47,7 @@ export const ProjectList = [
   {
     title: '롯데 ON 통합 구축',
     period: '2019.11 - 2020.04',
-    desc: '',
+    desc: '작업중',
     tech: 'Vue.js / Html / Javascript / Scss / Git / Jira / Zeplin'
   },
   {

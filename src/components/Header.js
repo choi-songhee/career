@@ -11,8 +11,8 @@ const Header = () => {
           </span>
         </div>
         <div className="header__link-area">
-          <a className="header__link" href="" target="_blank">Resume</a>
-          <a className="header__link" href="" target="_blank">Portfolio</a>
+          <a className="header__link" href="https://ssonghee.notion.site/Resume-1fcef75465e7468187b5b18d8ba1bfdb" target="_blank">Resume</a>
+          <a className="header__link" href="https://songhee-portfolio.netlify.app" target="_blank">Portfolio</a>
         </div>
       </div>
     </header>

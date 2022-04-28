@@ -30,6 +30,14 @@
     color: var(--text-default);
   }
 
+  &__link-area {
+    margin-top: 15px;
+
+    @media screen and (min-width: 801px) {
+      margin-top: 0;
+    }
+  }
+
   &__link {
     font-size: 18px;
     color: var(--text-point);
@@ -45,6 +53,11 @@
 
   .inner {
     align-items: baseline;
+    flex-flow: column;
+
+    @media screen and (min-width: 801px) {
+      flex-flow: nowrap;
+    }
   }
 }
 
@@ -52,10 +65,12 @@
 .section {
   position: relative;
   flex: 1 1 auto;
-  padding: 0 12.5% 5rem;
+  padding: 0 10% 5rem;
 
   @media screen and (min-width: 801px) {
-    padding: 0 100px 5rem;
+    padding: 0 80px 5rem;
+    max-width: 1240px;
+    margin: 0 auto;
   }
 
   &__subject {
@@ -98,17 +113,28 @@
 
   &__period {
     color: #949599;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   &__desc {
     color: var(--text-default);
     white-space: pre-line;
+    font-size: 15px;
+  }
+
+  &__tech {
+    font-size: 15px;
+    color: var(--text-default);
+  }
+
+  &__url {
+    color: var(--text-point);
   }
 
   .c-point {
     display: block;
     color: var(--text-point);
+    font-size: 16px;
     font-weight: 600;
   }
 }
@@ -120,14 +146,31 @@
   font-weight: 200;
 }
 
+
+// layout css
 .inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12.5%;
+  padding: 10%;
 
   @media screen and (min-width: 801px) {
-    padding: 100px;
+    padding: 100px 80px;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+}
+
+.site-contact {
+  font-size: 0;
+
+  &__link {
+    display: inline-block;
+    margin: 0 12px;
+  }
+
+  &__icon {
+    font-size: 35px;
   }
 }
 

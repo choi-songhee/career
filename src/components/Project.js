@@ -8,7 +8,8 @@ const Project = () => {
         Project.
       </h2>
       <p className="section__desc">
-        다양한 형태의 웹사이트와 모바일 웹, 반응형 웹 그리고 웹 접근성 프로젝트까지 풍부한 개발 경험을 가지고 있습니다.
+        다양한 형태의 웹사이트와 모바일 웹, 반응형 웹 그리고 다양한 규모의 프로젝트에 참여하여 <br />
+        풍부한 개발 경험을 가지고 있습니다.
       </p>
       <div className="project">
         {ProjectList.map((item, i) => (

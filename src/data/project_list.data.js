@@ -46,7 +46,7 @@ export const ProjectList = [
   {
     title: 'SHANGPREE 다국어 웹사이트 구축',
     period: '2021.01 - 2021.04',
-    desc: 'SHANGPREE 브랜드 소개 웹사이트로 한국어, 영어, 중국어를 지원하는 다국어 웹사이트를 구축하였습니다.' +
+    desc: 'SHANGPREE 브랜드 소개 웹사이트로 한국어, 영어, 중국어를 지원하는 다국어 웹사이트를 구축하였습니다' +
       '\n- 웹표준 및 웹 접근성, 크로스브라우징을 고려한 반응형 작업 진행' +
       '\n- yaml 문법을 사용하여 언어별로 데이터 분기 작업 진행',
     tech: 'Nuxt.js / Html / Javascript / Scss / Git / Trello',
@@ -55,7 +55,7 @@ export const ProjectList = [
   {
     title: '롯데 ON 운영',
     period: '2020.05 - 2020.12',
-    desc: '롯데 ON 앱/웹의 기본적인 유지보수를 비롯해 다양한 기획 요구에 맞는 새로운 기능과 UI 개편 작업을 하였습니다. ' +
+    desc: '롯데 ON 앱/웹의 기본적인 유지보수를 비롯해 다양한 기획 요구에 맞는 새로운 기능과 UI 개편 작업을 하였습니다' +
       '\n- 신규로 진행되는 이벤트 페이지 마크업 및 스크립트 기능 개발' +
       '\n- 기획 요구에 따른 기능개선 및 이슈처리',
     tech: 'Vue.js / Html / Javascript / Scss / Git / Jira / Zeplin',

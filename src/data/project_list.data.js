@@ -1,5 +1,14 @@
 export const ProjectList = [
   {
+    title: '자사 헬스케어 앱 (가문의 건강)',
+    period: '2022.08 - 진행중',
+    desc: '신규 서비스 UI 퍼블 작업 및 사용성 개선 작업을 진행중입니다' +
+      '\n- 신규 서비스 UI 퍼블리싱 작업' +
+      '\n- 기존 화면 UI 개선 작업',
+    tech: 'Vue.js / Html / Scss / Javascript / Svn / XD / Figma',
+    url: 'https://www.gamun.net/'
+  },
+  {
     title: 'LG HOMIN 운영 (프론트서비스퍼블 파트)',
     period: '2022.01 - 2022.04',
     desc: 'LG HOMIN 앱/웹의 기본적인 유지보수와 다양한 기획 요구에 맞는 UI 개선 및 이슈처리를 진행하였습니다' +

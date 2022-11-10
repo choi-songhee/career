@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header__wrap">
           <h1 className="header__title">경력기술서</h1>
           <span className="header__desc">
-            안녕하세요 웹 프론트엔드 개발자 최송희입니다
+            안녕하세요 웹 퍼블리셔 최송희입니다
           </span>
         </div>
         <div className="header__link-area">
